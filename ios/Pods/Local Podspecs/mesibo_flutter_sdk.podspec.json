@@ -1,0 +1,34 @@
+{
+  "name": "mesibo_flutter_sdk",
+  "version": "2.1.1",
+  "summary": "mesibo is the most popular developer platform to add scalable Messaging, Calls, Conferencing, and Chatbot to your apps",
+  "description": "mesibo Flutter plugin.",
+  "homepage": "https://mesibo.com",
+  "license": {
+    "file": "../LICENSE"
+  },
+  "authors": {
+    "mesibo": "support@mesibo.com"
+  },
+  "source": {
+    "path": "."
+  },
+  "source_files": "Classes/**/*",
+  "public_header_files": "Classes/**/*.h",
+  "dependencies": {
+    "Flutter": [
+
+    ],
+    "mesiboflutter": [
+
+    ]
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "static_framework": true,
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "i386"
+  }
+}

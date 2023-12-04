@@ -1,0 +1,7 @@
+framework module mesiboflutter {
+ umbrella header "MesiboFlutterPlugin.h"
+
+ module * { export * }
+
+ export *
+}

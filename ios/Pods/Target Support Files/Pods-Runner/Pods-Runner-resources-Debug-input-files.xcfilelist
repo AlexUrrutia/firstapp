@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-resources.sh
+${PODS_ROOT}/mesibo-calls/mesibocall.framework/Resources/MesiboCallBundle.bundle
+${PODS_ROOT}/mesibo-mediapicker/mediapicker.framework/Resources/ImagePickerBundle.bundle
+${PODS_ROOT}/mesibo-ui/mesiboui.framework/Resources/MesiboUIResource.bundle

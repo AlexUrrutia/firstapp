@@ -1,0 +1,2325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		0CEFF2D421D73DBFD4B88DB2894CFE57 /* mesibo */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2EB93B0D8485A9A57D8A64DEFA38BAA5 /* Build configuration list for PBXAggregateTarget "mesibo" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = mesibo;
+		};
+		1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 94078A06C17E946ADC1F2C06726219E5 /* Build configuration list for PBXAggregateTarget "Flutter" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = Flutter;
+		};
+		2E0766351836E593329C0C7C54A93486 /* mesibo-mediapicker */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0C4D9477DE7666B66DF81BBAE5E4A2E0 /* Build configuration list for PBXAggregateTarget "mesibo-mediapicker" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "mesibo-mediapicker";
+		};
+		55E564904B5D73CE155189A672674415 /* mesibo-ui */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = FAC76176568DABA8BD736170DDF416CB /* Build configuration list for PBXAggregateTarget "mesibo-ui" */;
+			buildPhases = (
+			);
+			dependencies = (
+				872C33D385774620A3C9BA17EB703843 /* PBXTargetDependency */,
+				0F0972A8EEB573F64BA7FEC3675B6E5B /* PBXTargetDependency */,
+			);
+			name = "mesibo-ui";
+		};
+		94824937A6B000A763127F319D4EAF3D /* mesibo-calls */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0DF3E248A2A648613DA1CF609C3AAB5B /* Build configuration list for PBXAggregateTarget "mesibo-calls" */;
+			buildPhases = (
+			);
+			dependencies = (
+				50C9A0253235AD67030668597677D0F0 /* PBXTargetDependency */,
+				32B50DAE4C3DC554FC355A87732172EE /* PBXTargetDependency */,
+			);
+			name = "mesibo-calls";
+		};
+		D2BCB64C839C317265EB8BE1B7F9992C /* mesibo-webrtc */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0C9EEBE616655F51B83D3A3438057049 /* Build configuration list for PBXAggregateTarget "mesibo-webrtc" */;
+			buildPhases = (
+			);
+			dependencies = (
+				4EE042934DD134BFA73293F7B8F04E24 /* PBXTargetDependency */,
+			);
+			name = "mesibo-webrtc";
+		};
+		D8CFAC14DF597F9B9F3848EE8E7B679E /* mesiboflutter */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 98DF6E2D4AFE0BC2A667BDBE6AAA51F1 /* Build configuration list for PBXAggregateTarget "mesiboflutter" */;
+			buildPhases = (
+			);
+			dependencies = (
+				2AFE5FC48D0814C10F89EAC1F1F49A52 /* PBXTargetDependency */,
+				3F74695D19A420817DA111DBA90BB06F /* PBXTargetDependency */,
+				7610F75A45F1E2C52E9F4D5DEBA1E5F1 /* PBXTargetDependency */,
+				48728E67C627DDE542F958D38B58ACAA /* PBXTargetDependency */,
+			);
+			name = mesiboflutter;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		2401C748AE4FF4DEE2BCD2FE45495109 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4229C226C260E475C6897785A9D50777 /* mesibo_flutter_sdk-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 57E4D363433A26CD4D4355EBA60919DD /* mesibo_flutter_sdk-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46D19D2688AD72939758EDA6E9BCB8E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6B1E62EB116E7D7A6252B6F079890306 /* Pods-RunnerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3DB54C128E3D88C0C9C7DDEA475ED7 /* Pods-RunnerTests-dummy.m */; };
+		6C71BE5594483516567ECBA5E5D53C04 /* MesiboPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = C48AA9EAACF13DE2C250413AEED91D2E /* MesiboPlugin.m */; };
+		9C70B44326832CF1B05F7664DF6B30E1 /* Pods-Runner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE511AD6D1EBB81F8772A1393496DCAB /* Pods-Runner-dummy.m */; };
+		C216C0E713DFAE3D5DB794E6AE7DC8ED /* MesiboPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 362BA2B21C8F02099BD8A6AD93C83514 /* MesiboPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB24691029FC9FC430CA36F90DC590FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E70C207858336AFEDEA5AF20F04FB2CB /* mesibo_flutter_sdk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B0365D3401A96F743923408D73FD72 /* mesibo_flutter_sdk-dummy.m */; };
+		F072DA975A226893AA56A8C490C52340 /* Pods-Runner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 564B2BC461DA7E894FC1176277C8E304 /* Pods-Runner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC05A1BE39A9244D5B09A2F3B09A967A /* Pods-RunnerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E9B12BCE5540D02A80250C3EC16D399 /* Pods-RunnerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A551BB5D77573D47D998DE5822081BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94824937A6B000A763127F319D4EAF3D;
+			remoteInfo = "mesibo-calls";
+		};
+		20AC187272BDFA3303DDE4707867E14B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CEFF2D421D73DBFD4B88DB2894CFE57;
+			remoteInfo = mesibo;
+		};
+		222A7971B38DDF656F2C03338BE0AB9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CEFF2D421D73DBFD4B88DB2894CFE57;
+			remoteInfo = mesibo;
+		};
+		2A22E61651F9F6EBC77B569D81A5B54B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CEFF2D421D73DBFD4B88DB2894CFE57;
+			remoteInfo = mesibo;
+		};
+		2AC7B2A1338E5D75A19F88D20EBFEB63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B74B458B450D74B75744B87BD747314;
+			remoteInfo = "Pods-Runner";
+		};
+		30FAF9638F3328EDB908F1C70374AB2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EFDDC32A34D56D411E640A81DCD9E73;
+			remoteInfo = Flutter;
+		};
+		32FC404B548F608D50DB01B086066170 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E0766351836E593329C0C7C54A93486;
+			remoteInfo = "mesibo-mediapicker";
+		};
+		38719959623A44912041CEE744C18C89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EFDDC32A34D56D411E640A81DCD9E73;
+			remoteInfo = Flutter;
+		};
+		5F88CDDF9CF16D93974C986B1485A2E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94824937A6B000A763127F319D4EAF3D;
+			remoteInfo = "mesibo-calls";
+		};
+		66DCE19934AFF975EE2616D35B45334C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CEFF2D421D73DBFD4B88DB2894CFE57;
+			remoteInfo = mesibo;
+		};
+		6747C4FF184168242F6A75B07604D4D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55E564904B5D73CE155189A672674415;
+			remoteInfo = "mesibo-ui";
+		};
+		6B03DE61EC0910F0C6864C6FD3B37E67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E55F58753E269FE063B707DDF2A89D6;
+			remoteInfo = mesibo_flutter_sdk;
+		};
+		9B187BE6AB271BD67B41A30EA9CB5D29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2BCB64C839C317265EB8BE1B7F9992C;
+			remoteInfo = "mesibo-webrtc";
+		};
+		9DC6BF5662170224D71552AE8369C8F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E0766351836E593329C0C7C54A93486;
+			remoteInfo = "mesibo-mediapicker";
+		};
+		A81DF2DA7CFB53DF61BC07FCCEA6E623 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8CFAC14DF597F9B9F3848EE8E7B679E;
+			remoteInfo = mesiboflutter;
+		};
+		B1530D1CF986195E9ACC64662CF45469 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55E564904B5D73CE155189A672674415;
+			remoteInfo = "mesibo-ui";
+		};
+		C584E89004C77EB2102BC97ED75B201C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8CFAC14DF597F9B9F3848EE8E7B679E;
+			remoteInfo = mesiboflutter;
+		};
+		D57F583742D090AAC720B1CE69799359 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CEFF2D421D73DBFD4B88DB2894CFE57;
+			remoteInfo = mesibo;
+		};
+		D6D5097A8E6461AD9D115D9999472A3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EFDDC32A34D56D411E640A81DCD9E73;
+			remoteInfo = Flutter;
+		};
+		E68BCEC5650EF833B0BCF7AAD023B9FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2BCB64C839C317265EB8BE1B7F9992C;
+			remoteInfo = "mesibo-webrtc";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00266FA9CD5E3088413FD0CB6DDB6F28 /* mesibo_flutter_sdk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "mesibo_flutter_sdk-prefix.pch"; sourceTree = "<group>"; };
+		03E8AD2E8B75443E12D3D3BD12A9900E /* Pods-RunnerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RunnerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		11AA7018F95317D959D9D2E76CBB2377 /* Pods-RunnerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RunnerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		11B0365D3401A96F743923408D73FD72 /* mesibo_flutter_sdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "mesibo_flutter_sdk-dummy.m"; sourceTree = "<group>"; };
+		17A0315559A9BBAFD96FA9D252EA70BE /* mesibo_flutter_sdk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = mesibo_flutter_sdk.modulemap; sourceTree = "<group>"; };
+		19CE7873B676924B7A84E48579099890 /* mesibo_flutter_sdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = mesibo_flutter_sdk.release.xcconfig; sourceTree = "<group>"; };
+		25CB773761D2FBA2820DCA6B75C4B190 /* Pods-Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.debug.xcconfig"; sourceTree = "<group>"; };
+		2726E77BC9BE11E7B3BED279F959901A /* mesibo-calls.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "mesibo-calls.release.xcconfig"; sourceTree = "<group>"; };
+		33844B352F5F56328DAD1ED4FBD1D9A6 /* mesibo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = mesibo.framework; sourceTree = "<group>"; };
+		362BA2B21C8F02099BD8A6AD93C83514 /* MesiboPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MesiboPlugin.h; path = "../../../../../../../../../../.pub-cache/hosted/pub.dev/mesibo_flutter_sdk-2.1.1/ios/Classes/MesiboPlugin.h"; sourceTree = "<group>"; };
+		370B97CEDC2104CC47A144B4A73B1919 /* mesibocall.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = mesibocall.framework; sourceTree = "<group>"; };
+		37BBCC9F8061AEA44920B02B215F981B /* mediapicker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = mediapicker.framework; sourceTree = "<group>"; };
+		383A9A87A8767085E2BA0B284D2CC37C /* mesiboflutter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = mesiboflutter.framework; sourceTree = "<group>"; };
+		3C3EC18E2B2FB6A56ACE6CEED67EA6FA /* mesiboui.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = mesiboui.framework; sourceTree = "<group>"; };
+		3D39FB77C7ED7F0162CB915C62B52072 /* mesibo-calls.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "mesibo-calls.debug.xcconfig"; sourceTree = "<group>"; };
+		4AC78EF91F10486DEC8CDADE9DA2EDC4 /* Pods-Runner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Runner-Info.plist"; sourceTree = "<group>"; };
+		4D3DB54C128E3D88C0C9C7DDEA475ED7 /* Pods-RunnerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RunnerTests-dummy.m"; sourceTree = "<group>"; };
+		4E34770474B0E40051B67E4525FAB98E /* mesibo_flutter_sdk.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = mesibo_flutter_sdk.podspec; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/mesibo_flutter_sdk-2.1.1/ios/mesibo_flutter_sdk.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4F57807B5F09FCCF78CF6557B068EAE4 /* mesiboflutter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = mesiboflutter.debug.xcconfig; sourceTree = "<group>"; };
+		538BDCFB3E99631E5E7DD65BDFDFEDBC /* Flutter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Flutter.release.xcconfig; sourceTree = "<group>"; };
+		564B2BC461DA7E894FC1176277C8E304 /* Pods-Runner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Runner-umbrella.h"; sourceTree = "<group>"; };
+		57E4D363433A26CD4D4355EBA60919DD /* mesibo_flutter_sdk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "mesibo_flutter_sdk-umbrella.h"; sourceTree = "<group>"; };
+		5896CE1E6B31CFF1C245408FBEE6DC04 /* mesibo_flutter_sdk */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = mesibo_flutter_sdk; path = mesibo_flutter_sdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58C43BAB56D98F64810637E4D542BD1A /* mesibo-ui.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "mesibo-ui.release.xcconfig"; sourceTree = "<group>"; };
+		5C901511EE4B7F5BC84FD1B169776D69 /* mesibo_flutter_sdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = mesibo_flutter_sdk.debug.xcconfig; sourceTree = "<group>"; };
+		5ECC0C66AE1F3B6ECA24827AB41AD074 /* mesibo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = mesibo.release.xcconfig; sourceTree = "<group>"; };
+		66324A7A89E1042AB298774E5DB64E6C /* mesibo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = mesibo.debug.xcconfig; sourceTree = "<group>"; };
+		669E8F25E1897672BDB80B7EB784DA24 /* Pods-Runner */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Runner"; path = Pods_Runner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		691B1638CBFD91DFDB3516477A2F6D94 /* Pods-Runner-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Runner-acknowledgements.plist"; sourceTree = "<group>"; };
+		6A34043264275CC06612024AA59BF8B0 /* MesiboCallBundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = MesiboCallBundle.bundle; path = mesibocall.framework/Resources/MesiboCallBundle.bundle; sourceTree = "<group>"; };
+		6C3345B1B3CAEDF5B03B1F731FDC492E /* Pods-RunnerTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-RunnerTests"; path = Pods_RunnerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E8D4E6619800852917E8BF36369C37F /* MesiboUIResource.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = MesiboUIResource.bundle; path = mesiboui.framework/Resources/MesiboUIResource.bundle; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		738DDB8CA3C6DBF734576446512E7DB4 /* mesibo-mediapicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "mesibo-mediapicker.debug.xcconfig"; sourceTree = "<group>"; };
+		79F83F4D505FA40C1CD18A8029181D59 /* Pods-RunnerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RunnerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8AFA7DAEE8F0365782B3A794E5FF3C60 /* mesiboflutter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = mesiboflutter.release.xcconfig; sourceTree = "<group>"; };
+		9292C9A2F067F9309B69AFF848BD2019 /* Flutter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Flutter.debug.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E9B12BCE5540D02A80250C3EC16D399 /* Pods-RunnerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RunnerTests-umbrella.h"; sourceTree = "<group>"; };
+		A52F283D7F13137104EBA352B65A421B /* Pods-Runner-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Runner-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A9177C179D2ACB8036833DA20C546903 /* WebRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebRTC.framework; sourceTree = "<group>"; };
+		A98E34A829B9ABB024393C03AD0FC26B /* Pods-Runner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Runner.modulemap"; sourceTree = "<group>"; };
+		AC6430C86202E05836F8D17E01079B34 /* Pods-Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.release.xcconfig"; sourceTree = "<group>"; };
+		AC8FE152530FBDCE460186B326C1A8FB /* Pods-RunnerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RunnerTests.release.xcconfig"; sourceTree = "<group>"; };
+		AD5B8AD1F8C80E4E8CC63758EB63EE66 /* mesibo-webrtc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "mesibo-webrtc.release.xcconfig"; sourceTree = "<group>"; };
+		B00A5ECAED4CA0C16FF7C65365BC0334 /* Pods-RunnerTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RunnerTests-Info.plist"; sourceTree = "<group>"; };
+		B0BD57AB3672E53828D11C2A3368023A /* Pods-RunnerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RunnerTests.modulemap"; sourceTree = "<group>"; };
+		B24BE51DF9C8EA5C56D59F6D11165A5F /* mesibo-ui.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "mesibo-ui.debug.xcconfig"; sourceTree = "<group>"; };
+		BA091BD2FB37702E64DE64D6B6401DAD /* ImagePickerBundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ImagePickerBundle.bundle; path = mediapicker.framework/Resources/ImagePickerBundle.bundle; sourceTree = "<group>"; };
+		BB4C25DC4EF09CF90083B55F2DCEDCA1 /* Pods-Runner.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.profile.xcconfig"; sourceTree = "<group>"; };
+		BE511AD6D1EBB81F8772A1393496DCAB /* Pods-Runner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Runner-dummy.m"; sourceTree = "<group>"; };
+		C48AA9EAACF13DE2C250413AEED91D2E /* MesiboPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MesiboPlugin.m; path = "../../../../../../../../../../.pub-cache/hosted/pub.dev/mesibo_flutter_sdk-2.1.1/ios/Classes/MesiboPlugin.m"; sourceTree = "<group>"; };
+		CA00F72B48D7C4F41C0846878DBBAFF0 /* Pods-Runner-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Runner-resources.sh"; sourceTree = "<group>"; };
+		CCC975072BA69AB5A0135A98E65A07C0 /* mesibo_flutter_sdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "mesibo_flutter_sdk-Info.plist"; sourceTree = "<group>"; };
+		DF1E909D96CDF290722E6D55FCE18677 /* Flutter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Flutter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E736E0C9C5B73D27B8865E363E2108AC /* Pods-RunnerTests.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RunnerTests.profile.xcconfig"; sourceTree = "<group>"; };
+		E9C126AF12BE1452408F1764CF2EFA02 /* mesibo-webrtc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "mesibo-webrtc.debug.xcconfig"; sourceTree = "<group>"; };
+		EE1EEF554D665C5AF271E4B73347909F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/mesibo_flutter_sdk-2.1.1/LICENSE"; sourceTree = "<group>"; };
+		F5D80ECEE59CB8A148B97DF41BBBBF5E /* mesibo-mediapicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "mesibo-mediapicker.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		195B28298C85805794E9556F7EA07882 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2401C748AE4FF4DEE2BCD2FE45495109 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4FEB923C53B1029632F94E67CDF8FC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D19D2688AD72939758EDA6E9BCB8E3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDD433D7F3FCC9191D5A6D36EA78D3E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB24691029FC9FC430CA36F90DC590FD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01ACAA3E5CFC08973C16DF590CFC80A2 /* mesiboflutter */ = {
+			isa = PBXGroup;
+			children = (
+				F877E5522031FE8CDDE112E4C2D2932B /* Frameworks */,
+				A89910E35DD1A467A8BF4E92E898318E /* Support Files */,
+			);
+			name = mesiboflutter;
+			path = mesiboflutter;
+			sourceTree = "<group>";
+		};
+		07D25A4CADD4BE267D11A61EBB6E7848 /* flutter */ = {
+			isa = PBXGroup;
+			children = (
+				FCFDBFE00DE239D5B164E6E42ADFB166 /* firstapp */,
+			);
+			name = flutter;
+			path = flutter;
+			sourceTree = "<group>";
+		};
+		0C9E9599E885F715123EF77E004F8C44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37BBCC9F8061AEA44920B02B215F981B /* mediapicker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		133C816C326D591BCB738C1330F7A822 /* Downloads */ = {
+			isa = PBXGroup;
+			children = (
+				AE80D7E9A95E9C68DB4C4B71CB962C7F /* samples-master 2 */,
+			);
+			name = Downloads;
+			path = Downloads;
+			sourceTree = "<group>";
+		};
+		141D406852228FAEE26DEA6C448B4CB5 /* mesibo_flutter_sdk */ = {
+			isa = PBXGroup;
+			children = (
+				94A12144F9CBC33E51C2F665F06ABA35 /* .. */,
+				60BEC27D393559A14C173414C8215D73 /* Pod */,
+				9E2B85B3622F57229CE9D7CE8FFE02DC /* Support Files */,
+			);
+			name = mesibo_flutter_sdk;
+			path = ../.symlinks/plugins/mesibo_flutter_sdk/ios;
+			sourceTree = "<group>";
+		};
+		1456231C4D7E3065AB450DB8FA3293D3 /* .symlinks */ = {
+			isa = PBXGroup;
+			children = (
+				CE3256E50F387DE164C7418D40C13DAD /* plugins */,
+			);
+			name = .symlinks;
+			path = .symlinks;
+			sourceTree = "<group>";
+		};
+		2487BCF2509FC453ECCDC1BCEC4C0839 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				738DDB8CA3C6DBF734576446512E7DB4 /* mesibo-mediapicker.debug.xcconfig */,
+				F5D80ECEE59CB8A148B97DF41BBBBF5E /* mesibo-mediapicker.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/mesibo-mediapicker";
+			sourceTree = "<group>";
+		};
+		25E2968F75B0DDFC69862E2675643805 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				362BA2B21C8F02099BD8A6AD93C83514 /* MesiboPlugin.h */,
+				C48AA9EAACF13DE2C250413AEED91D2E /* MesiboPlugin.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		26E46659E5EFE0F778244ACDCCE1A0AB /* mesibo-mediapicker */ = {
+			isa = PBXGroup;
+			children = (
+				0C9E9599E885F715123EF77E004F8C44 /* Frameworks */,
+				30DBB8A587868C3AC8A4741B8CA3E815 /* Resources */,
+				2487BCF2509FC453ECCDC1BCEC4C0839 /* Support Files */,
+			);
+			name = "mesibo-mediapicker";
+			path = "mesibo-mediapicker";
+			sourceTree = "<group>";
+		};
+		27D904674FCE7872C4C9B8389310433A /* mesibo-ui */ = {
+			isa = PBXGroup;
+			children = (
+				58A67DB44829EB56178365B030954268 /* Frameworks */,
+				37413F5189C0AF80AA00EC460BEEB395 /* Resources */,
+				B9F3029F97F5672D6CCBB33F4ED41758 /* Support Files */,
+			);
+			name = "mesibo-ui";
+			path = "mesibo-ui";
+			sourceTree = "<group>";
+		};
+		29CBDFDF478F8D1DD9F9F9733206D851 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				92A9E1EAE69AA658EC07EFFB5C57C0DA /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		2DB8426A477BA92773F00012EBA84D53 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D56C1A7795FACBDC5C30D49573BE4B03 /* Pods-Runner */,
+				537E840C4F4E30B706FD9D64B15C53A7 /* Pods-RunnerTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		30DBB8A587868C3AC8A4741B8CA3E815 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BA091BD2FB37702E64DE64D6B6401DAD /* ImagePickerBundle.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3445273A20057CB89694CD2ED9A99961 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D39FB77C7ED7F0162CB915C62B52072 /* mesibo-calls.debug.xcconfig */,
+				2726E77BC9BE11E7B3BED279F959901A /* mesibo-calls.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/mesibo-calls";
+			sourceTree = "<group>";
+		};
+		37413F5189C0AF80AA00EC460BEEB395 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6E8D4E6619800852917E8BF36369C37F /* MesiboUIResource.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3F9962E10E54004902E6413A5E355EF3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9C126AF12BE1452408F1764CF2EFA02 /* mesibo-webrtc.debug.xcconfig */,
+				AD5B8AD1F8C80E4E8CC63758EB63EE66 /* mesibo-webrtc.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/mesibo-webrtc";
+			sourceTree = "<group>";
+		};
+		4D0E948E89540BA7C712FC26806C41DE /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				133C816C326D591BCB738C1330F7A822 /* Downloads */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		4D9D4B49CFDB19D5323D2E4BCC4E4D4E /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				29CBDFDF478F8D1DD9F9F9733206D851 /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		51083DE2CA225BCE033ECA974C20CB72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				370B97CEDC2104CC47A144B4A73B1919 /* mesibocall.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		537E840C4F4E30B706FD9D64B15C53A7 /* Pods-RunnerTests */ = {
+			isa = PBXGroup;
+			children = (
+				B0BD57AB3672E53828D11C2A3368023A /* Pods-RunnerTests.modulemap */,
+				11AA7018F95317D959D9D2E76CBB2377 /* Pods-RunnerTests-acknowledgements.markdown */,
+				79F83F4D505FA40C1CD18A8029181D59 /* Pods-RunnerTests-acknowledgements.plist */,
+				4D3DB54C128E3D88C0C9C7DDEA475ED7 /* Pods-RunnerTests-dummy.m */,
+				B00A5ECAED4CA0C16FF7C65365BC0334 /* Pods-RunnerTests-Info.plist */,
+				9E9B12BCE5540D02A80250C3EC16D399 /* Pods-RunnerTests-umbrella.h */,
+				03E8AD2E8B75443E12D3D3BD12A9900E /* Pods-RunnerTests.debug.xcconfig */,
+				E736E0C9C5B73D27B8865E363E2108AC /* Pods-RunnerTests.profile.xcconfig */,
+				AC8FE152530FBDCE460186B326C1A8FB /* Pods-RunnerTests.release.xcconfig */,
+			);
+			name = "Pods-RunnerTests";
+			path = "Target Support Files/Pods-RunnerTests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		58A67DB44829EB56178365B030954268 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C3EC18E2B2FB6A56ACE6CEED67EA6FA /* mesiboui.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		59BC807E9D1C6B1764AD3232666990A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9177C179D2ACB8036833DA20C546903 /* WebRTC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		60BEC27D393559A14C173414C8215D73 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EE1EEF554D665C5AF271E4B73347909F /* LICENSE */,
+				4E34770474B0E40051B67E4525FAB98E /* mesibo_flutter_sdk.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		67A8FF772384197D3BDDC734785E9F05 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				1456231C4D7E3065AB450DB8FA3293D3 /* .symlinks */,
+			);
+			name = ios;
+			path = ios;
+			sourceTree = "<group>";
+		};
+		7D203C4CB25FABCAD2A809492FB2D2C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D966BD065CBB66ACC5ED228C803F6B61 /* mesibo */,
+				A62D80B96EF72655016328E236172FC5 /* mesibo-calls */,
+				26E46659E5EFE0F778244ACDCCE1A0AB /* mesibo-mediapicker */,
+				27D904674FCE7872C4C9B8389310433A /* mesibo-ui */,
+				C6A13AEFFB40A9FC242A29B87C2F2F00 /* mesibo-webrtc */,
+				01ACAA3E5CFC08973C16DF590CFC80A2 /* mesiboflutter */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7F6CED98BC2736A226DE8D540F0032DE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DF1E909D96CDF290722E6D55FCE18677 /* Flutter.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		92A9E1EAE69AA658EC07EFFB5C57C0DA /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				A7923DB6DF6AF4301A1AAF0E34C636C0 /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		94A12144F9CBC33E51C2F665F06ABA35 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				4D9D4B49CFDB19D5323D2E4BCC4E4D4E /* .. */,
+			);
+			name = ..;
+			path = "../../../../../../../../../.pub-cache/hosted/pub.dev/mesibo_flutter_sdk-2.1.1/ios";
+			sourceTree = "<group>";
+		};
+		9C45879EEBF59E36485A6AF4EBC42B2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5896CE1E6B31CFF1C245408FBEE6DC04 /* mesibo_flutter_sdk */,
+				669E8F25E1897672BDB80B7EB784DA24 /* Pods-Runner */,
+				6C3345B1B3CAEDF5B03B1F731FDC492E /* Pods-RunnerTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E2B85B3622F57229CE9D7CE8FFE02DC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				17A0315559A9BBAFD96FA9D252EA70BE /* mesibo_flutter_sdk.modulemap */,
+				11B0365D3401A96F743923408D73FD72 /* mesibo_flutter_sdk-dummy.m */,
+				CCC975072BA69AB5A0135A98E65A07C0 /* mesibo_flutter_sdk-Info.plist */,
+				00266FA9CD5E3088413FD0CB6DDB6F28 /* mesibo_flutter_sdk-prefix.pch */,
+				57E4D363433A26CD4D4355EBA60919DD /* mesibo_flutter_sdk-umbrella.h */,
+				5C901511EE4B7F5BC84FD1B169776D69 /* mesibo_flutter_sdk.debug.xcconfig */,
+				19CE7873B676924B7A84E48579099890 /* mesibo_flutter_sdk.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../../../Pods/Target Support Files/mesibo_flutter_sdk";
+			sourceTree = "<group>";
+		};
+		A47291BA4B70EA539273C53383D2ECF7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FF8098FA4D9DD4C6FB266FE6AA25B563 /* Flutter */,
+				141D406852228FAEE26DEA6C448B4CB5 /* mesibo_flutter_sdk */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A5FC942316F61247289A093AD6F66084 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9292C9A2F067F9309B69AFF848BD2019 /* Flutter.debug.xcconfig */,
+				538BDCFB3E99631E5E7DD65BDFDFEDBC /* Flutter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Pods/Target Support Files/Flutter";
+			sourceTree = "<group>";
+		};
+		A62D80B96EF72655016328E236172FC5 /* mesibo-calls */ = {
+			isa = PBXGroup;
+			children = (
+				51083DE2CA225BCE033ECA974C20CB72 /* Frameworks */,
+				D378CFEEF3A8D3E2DB4BA06B0E230976 /* Resources */,
+				3445273A20057CB89694CD2ED9A99961 /* Support Files */,
+			);
+			name = "mesibo-calls";
+			path = "mesibo-calls";
+			sourceTree = "<group>";
+		};
+		A7923DB6DF6AF4301A1AAF0E34C636C0 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				4D0E948E89540BA7C712FC26806C41DE /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		A89910E35DD1A467A8BF4E92E898318E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F57807B5F09FCCF78CF6557B068EAE4 /* mesiboflutter.debug.xcconfig */,
+				8AFA7DAEE8F0365782B3A794E5FF3C60 /* mesiboflutter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/mesiboflutter";
+			sourceTree = "<group>";
+		};
+		AE80D7E9A95E9C68DB4C4B71CB962C7F /* samples-master 2 */ = {
+			isa = PBXGroup;
+			children = (
+				07D25A4CADD4BE267D11A61EBB6E7848 /* flutter */,
+			);
+			name = "samples-master 2";
+			path = "samples-master 2";
+			sourceTree = "<group>";
+		};
+		B9F3029F97F5672D6CCBB33F4ED41758 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B24BE51DF9C8EA5C56D59F6D11165A5F /* mesibo-ui.debug.xcconfig */,
+				58C43BAB56D98F64810637E4D542BD1A /* mesibo-ui.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/mesibo-ui";
+			sourceTree = "<group>";
+		};
+		C6A13AEFFB40A9FC242A29B87C2F2F00 /* mesibo-webrtc */ = {
+			isa = PBXGroup;
+			children = (
+				59BC807E9D1C6B1764AD3232666990A4 /* Frameworks */,
+				3F9962E10E54004902E6413A5E355EF3 /* Support Files */,
+			);
+			name = "mesibo-webrtc";
+			path = "mesibo-webrtc";
+			sourceTree = "<group>";
+		};
+		CE3256E50F387DE164C7418D40C13DAD /* plugins */ = {
+			isa = PBXGroup;
+			children = (
+				EEE857713605EE28E4CFE0F82BE9ED53 /* mesibo_flutter_sdk */,
+			);
+			name = plugins;
+			path = plugins;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				A47291BA4B70EA539273C53383D2ECF7 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				7D203C4CB25FABCAD2A809492FB2D2C2 /* Pods */,
+				9C45879EEBF59E36485A6AF4EBC42B2F /* Products */,
+				2DB8426A477BA92773F00012EBA84D53 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D378CFEEF3A8D3E2DB4BA06B0E230976 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6A34043264275CC06612024AA59BF8B0 /* MesiboCallBundle.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D56C1A7795FACBDC5C30D49573BE4B03 /* Pods-Runner */ = {
+			isa = PBXGroup;
+			children = (
+				A98E34A829B9ABB024393C03AD0FC26B /* Pods-Runner.modulemap */,
+				A52F283D7F13137104EBA352B65A421B /* Pods-Runner-acknowledgements.markdown */,
+				691B1638CBFD91DFDB3516477A2F6D94 /* Pods-Runner-acknowledgements.plist */,
+				BE511AD6D1EBB81F8772A1393496DCAB /* Pods-Runner-dummy.m */,
+				4AC78EF91F10486DEC8CDADE9DA2EDC4 /* Pods-Runner-Info.plist */,
+				CA00F72B48D7C4F41C0846878DBBAFF0 /* Pods-Runner-resources.sh */,
+				564B2BC461DA7E894FC1176277C8E304 /* Pods-Runner-umbrella.h */,
+				25CB773761D2FBA2820DCA6B75C4B190 /* Pods-Runner.debug.xcconfig */,
+				BB4C25DC4EF09CF90083B55F2DCEDCA1 /* Pods-Runner.profile.xcconfig */,
+				AC6430C86202E05836F8D17E01079B34 /* Pods-Runner.release.xcconfig */,
+			);
+			name = "Pods-Runner";
+			path = "Target Support Files/Pods-Runner";
+			sourceTree = "<group>";
+		};
+		D822E5576239B83273BA5CFEBA8E8141 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				25E2968F75B0DDFC69862E2675643805 /* Classes */,
+			);
+			name = ios;
+			path = ios;
+			sourceTree = "<group>";
+		};
+		D966BD065CBB66ACC5ED228C803F6B61 /* mesibo */ = {
+			isa = PBXGroup;
+			children = (
+				FFA57CFC0C03EF5F23082E6D51A84920 /* Frameworks */,
+				DABDD23611028DBA0FBB3F8AA900A22A /* Support Files */,
+			);
+			name = mesibo;
+			path = mesibo;
+			sourceTree = "<group>";
+		};
+		DABDD23611028DBA0FBB3F8AA900A22A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				66324A7A89E1042AB298774E5DB64E6C /* mesibo.debug.xcconfig */,
+				5ECC0C66AE1F3B6ECA24827AB41AD074 /* mesibo.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/mesibo";
+			sourceTree = "<group>";
+		};
+		EEE857713605EE28E4CFE0F82BE9ED53 /* mesibo_flutter_sdk */ = {
+			isa = PBXGroup;
+			children = (
+				D822E5576239B83273BA5CFEBA8E8141 /* ios */,
+			);
+			name = mesibo_flutter_sdk;
+			path = mesibo_flutter_sdk;
+			sourceTree = "<group>";
+		};
+		F877E5522031FE8CDDE112E4C2D2932B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				383A9A87A8767085E2BA0B284D2CC37C /* mesiboflutter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCFDBFE00DE239D5B164E6E42ADFB166 /* firstapp */ = {
+			isa = PBXGroup;
+			children = (
+				67A8FF772384197D3BDDC734785E9F05 /* ios */,
+			);
+			name = firstapp;
+			path = firstapp;
+			sourceTree = "<group>";
+		};
+		FF8098FA4D9DD4C6FB266FE6AA25B563 /* Flutter */ = {
+			isa = PBXGroup;
+			children = (
+				7F6CED98BC2736A226DE8D540F0032DE /* Pod */,
+				A5FC942316F61247289A093AD6F66084 /* Support Files */,
+			);
+			name = Flutter;
+			path = ../Flutter;
+			sourceTree = "<group>";
+		};
+		FFA57CFC0C03EF5F23082E6D51A84920 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33844B352F5F56328DAD1ED4FBD1D9A6 /* mesibo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		142B3D4D76C500A061E6BCF30EC9A53C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC05A1BE39A9244D5B09A2F3B09A967A /* Pods-RunnerTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0D2B32BB03E47F6AA624F38CB48FC9B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F072DA975A226893AA56A8C490C52340 /* Pods-Runner-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F021ED075BD885EEFF2103B944E84B3B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4229C226C260E475C6897785A9D50777 /* mesibo_flutter_sdk-umbrella.h in Headers */,
+				C216C0E713DFAE3D5DB794E6AE7DC8ED /* MesiboPlugin.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2E55F58753E269FE063B707DDF2A89D6 /* mesibo_flutter_sdk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD0C3FB97FBDB751E51AAC7D002BCF54 /* Build configuration list for PBXNativeTarget "mesibo_flutter_sdk" */;
+			buildPhases = (
+				F021ED075BD885EEFF2103B944E84B3B /* Headers */,
+				0473694D928BAEA8688DA55729551ADB /* Sources */,
+				FDD433D7F3FCC9191D5A6D36EA78D3E7 /* Frameworks */,
+				5D45ADA1156B2AFF5E21ADBE6029BCE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0B8DFBBCE8277036095D4283BE65C33 /* PBXTargetDependency */,
+				51D3642C1D9172330D28C87AF6BB91E4 /* PBXTargetDependency */,
+			);
+			name = mesibo_flutter_sdk;
+			productName = mesibo_flutter_sdk;
+			productReference = 5896CE1E6B31CFF1C245408FBEE6DC04 /* mesibo_flutter_sdk */;
+			productType = "com.apple.product-type.framework";
+		};
+		3232F0C0E7C65B232832393F9ADDD8C3 /* Pods-RunnerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C93FE463016A8F6A183A1AD3D9FA6BAD /* Build configuration list for PBXNativeTarget "Pods-RunnerTests" */;
+			buildPhases = (
+				142B3D4D76C500A061E6BCF30EC9A53C /* Headers */,
+				E10C36E928F64731CA20595F8549B229 /* Sources */,
+				195B28298C85805794E9556F7EA07882 /* Frameworks */,
+				1FCDCF5B151D07CE5E500ACCA90F4EF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88A2F6608E1AA7517AB26BFB954E6536 /* PBXTargetDependency */,
+			);
+			name = "Pods-RunnerTests";
+			productName = Pods_RunnerTests;
+			productReference = 6C3345B1B3CAEDF5B03B1F731FDC492E /* Pods-RunnerTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		8B74B458B450D74B75744B87BD747314 /* Pods-Runner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9F2641FA3570AC429515777CE90EC3D /* Build configuration list for PBXNativeTarget "Pods-Runner" */;
+			buildPhases = (
+				A0D2B32BB03E47F6AA624F38CB48FC9B /* Headers */,
+				230299FBA94FA24C9E2B3F09E439988B /* Sources */,
+				E4FEB923C53B1029632F94E67CDF8FC9 /* Frameworks */,
+				1FC476F55121C90C265B6F61F2B1C611 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B156FEB200A5B992BEEE2D6A957368C2 /* PBXTargetDependency */,
+				E5031D0B9B4F23A46AE6B8DBFFFFC9E7 /* PBXTargetDependency */,
+				7360AED5E881DA65634212F05B652B34 /* PBXTargetDependency */,
+				8E2EE07CB2BE5A6E6C695F337CE8704A /* PBXTargetDependency */,
+				CBF80DA3A066A1A16B6B29D92D27FA79 /* PBXTargetDependency */,
+				25F85FF7242E9A2919B8DDF10F4A6E6C /* PBXTargetDependency */,
+				49AACAEB35DA282D9F6EDB117F8F472A /* PBXTargetDependency */,
+				FD57A1687369DC56D97CF8EC77859361 /* PBXTargetDependency */,
+			);
+			name = "Pods-Runner";
+			productName = Pods_Runner;
+			productReference = 669E8F25E1897672BDB80B7EB784DA24 /* Pods-Runner */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 9C45879EEBF59E36485A6AF4EBC42B2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */,
+				0CEFF2D421D73DBFD4B88DB2894CFE57 /* mesibo */,
+				94824937A6B000A763127F319D4EAF3D /* mesibo-calls */,
+				2E0766351836E593329C0C7C54A93486 /* mesibo-mediapicker */,
+				55E564904B5D73CE155189A672674415 /* mesibo-ui */,
+				D2BCB64C839C317265EB8BE1B7F9992C /* mesibo-webrtc */,
+				2E55F58753E269FE063B707DDF2A89D6 /* mesibo_flutter_sdk */,
+				D8CFAC14DF597F9B9F3848EE8E7B679E /* mesiboflutter */,
+				8B74B458B450D74B75744B87BD747314 /* Pods-Runner */,
+				3232F0C0E7C65B232832393F9ADDD8C3 /* Pods-RunnerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FC476F55121C90C265B6F61F2B1C611 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FCDCF5B151D07CE5E500ACCA90F4EF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D45ADA1156B2AFF5E21ADBE6029BCE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0473694D928BAEA8688DA55729551ADB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E70C207858336AFEDEA5AF20F04FB2CB /* mesibo_flutter_sdk-dummy.m in Sources */,
+				6C71BE5594483516567ECBA5E5D53C04 /* MesiboPlugin.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		230299FBA94FA24C9E2B3F09E439988B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C70B44326832CF1B05F7664DF6B30E1 /* Pods-Runner-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E10C36E928F64731CA20595F8549B229 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B1E62EB116E7D7A6252B6F079890306 /* Pods-RunnerTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F0972A8EEB573F64BA7FEC3675B6E5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "mesibo-mediapicker";
+			target = 2E0766351836E593329C0C7C54A93486 /* mesibo-mediapicker */;
+			targetProxy = 9DC6BF5662170224D71552AE8369C8F7 /* PBXContainerItemProxy */;
+		};
+		25F85FF7242E9A2919B8DDF10F4A6E6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "mesibo-webrtc";
+			target = D2BCB64C839C317265EB8BE1B7F9992C /* mesibo-webrtc */;
+			targetProxy = E68BCEC5650EF833B0BCF7AAD023B9FF /* PBXContainerItemProxy */;
+		};
+		2AFE5FC48D0814C10F89EAC1F1F49A52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Flutter;
+			target = 1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */;
+			targetProxy = 30FAF9638F3328EDB908F1C70374AB2F /* PBXContainerItemProxy */;
+		};
+		32B50DAE4C3DC554FC355A87732172EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "mesibo-webrtc";
+			target = D2BCB64C839C317265EB8BE1B7F9992C /* mesibo-webrtc */;
+			targetProxy = 9B187BE6AB271BD67B41A30EA9CB5D29 /* PBXContainerItemProxy */;
+		};
+		3F74695D19A420817DA111DBA90BB06F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = mesibo;
+			target = 0CEFF2D421D73DBFD4B88DB2894CFE57 /* mesibo */;
+			targetProxy = 222A7971B38DDF656F2C03338BE0AB9E /* PBXContainerItemProxy */;
+		};
+		48728E67C627DDE542F958D38B58ACAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "mesibo-ui";
+			target = 55E564904B5D73CE155189A672674415 /* mesibo-ui */;
+			targetProxy = B1530D1CF986195E9ACC64662CF45469 /* PBXContainerItemProxy */;
+		};
+		49AACAEB35DA282D9F6EDB117F8F472A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = mesibo_flutter_sdk;
+			target = 2E55F58753E269FE063B707DDF2A89D6 /* mesibo_flutter_sdk */;
+			targetProxy = 6B03DE61EC0910F0C6864C6FD3B37E67 /* PBXContainerItemProxy */;
+		};
+		4EE042934DD134BFA73293F7B8F04E24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = mesibo;
+			target = 0CEFF2D421D73DBFD4B88DB2894CFE57 /* mesibo */;
+			targetProxy = D57F583742D090AAC720B1CE69799359 /* PBXContainerItemProxy */;
+		};
+		50C9A0253235AD67030668597677D0F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = mesibo;
+			target = 0CEFF2D421D73DBFD4B88DB2894CFE57 /* mesibo */;
+			targetProxy = 66DCE19934AFF975EE2616D35B45334C /* PBXContainerItemProxy */;
+		};
+		51D3642C1D9172330D28C87AF6BB91E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = mesiboflutter;
+			target = D8CFAC14DF597F9B9F3848EE8E7B679E /* mesiboflutter */;
+			targetProxy = C584E89004C77EB2102BC97ED75B201C /* PBXContainerItemProxy */;
+		};
+		7360AED5E881DA65634212F05B652B34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "mesibo-calls";
+			target = 94824937A6B000A763127F319D4EAF3D /* mesibo-calls */;
+			targetProxy = 1A551BB5D77573D47D998DE5822081BD /* PBXContainerItemProxy */;
+		};
+		7610F75A45F1E2C52E9F4D5DEBA1E5F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "mesibo-calls";
+			target = 94824937A6B000A763127F319D4EAF3D /* mesibo-calls */;
+			targetProxy = 5F88CDDF9CF16D93974C986B1485A2E7 /* PBXContainerItemProxy */;
+		};
+		872C33D385774620A3C9BA17EB703843 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = mesibo;
+			target = 0CEFF2D421D73DBFD4B88DB2894CFE57 /* mesibo */;
+			targetProxy = 2A22E61651F9F6EBC77B569D81A5B54B /* PBXContainerItemProxy */;
+		};
+		88A2F6608E1AA7517AB26BFB954E6536 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Runner";
+			target = 8B74B458B450D74B75744B87BD747314 /* Pods-Runner */;
+			targetProxy = 2AC7B2A1338E5D75A19F88D20EBFEB63 /* PBXContainerItemProxy */;
+		};
+		8E2EE07CB2BE5A6E6C695F337CE8704A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "mesibo-mediapicker";
+			target = 2E0766351836E593329C0C7C54A93486 /* mesibo-mediapicker */;
+			targetProxy = 32FC404B548F608D50DB01B086066170 /* PBXContainerItemProxy */;
+		};
+		B156FEB200A5B992BEEE2D6A957368C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Flutter;
+			target = 1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */;
+			targetProxy = D6D5097A8E6461AD9D115D9999472A3E /* PBXContainerItemProxy */;
+		};
+		CBF80DA3A066A1A16B6B29D92D27FA79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "mesibo-ui";
+			target = 55E564904B5D73CE155189A672674415 /* mesibo-ui */;
+			targetProxy = 6747C4FF184168242F6A75B07604D4D8 /* PBXContainerItemProxy */;
+		};
+		D0B8DFBBCE8277036095D4283BE65C33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Flutter;
+			target = 1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */;
+			targetProxy = 38719959623A44912041CEE744C18C89 /* PBXContainerItemProxy */;
+		};
+		E5031D0B9B4F23A46AE6B8DBFFFFC9E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = mesibo;
+			target = 0CEFF2D421D73DBFD4B88DB2894CFE57 /* mesibo */;
+			targetProxy = 20AC187272BDFA3303DDE4707867E14B /* PBXContainerItemProxy */;
+		};
+		FD57A1687369DC56D97CF8EC77859361 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = mesiboflutter;
+			target = D8CFAC14DF597F9B9F3848EE8E7B679E /* mesiboflutter */;
+			targetProxy = A81DF2DA7CFB53DF61BC07FCCEA6E623 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0BD802E61EF62B94488C7298C856EF86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5D80ECEE59CB8A148B97DF41BBBBF5E /* mesibo-mediapicker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		123B0D65A35211FC43B8BEE770443D25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 538BDCFB3E99631E5E7DD65BDFDFEDBC /* Flutter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15F47935B1A786B98DD96980F8952084 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 738DDB8CA3C6DBF734576446512E7DB4 /* mesibo-mediapicker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2943E5A7A15BAC38E8BA43C167A650B0 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AFA7DAEE8F0365782B3A794E5FF3C60 /* mesiboflutter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "$(inherited) armv7";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
+					"\"/Users/alex/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64\"",
+					"$(inherited)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
+					"\"/Users/alex/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64_x86_64-simulator\"",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					Flutter,
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
+			};
+			name = Profile;
+		};
+		2B14C78449FDEF785035FE0D4063F43C /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19CE7873B676924B7A84E48579099890 /* mesibo_flutter_sdk.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "$(inherited) armv7";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
+					"\"/Users/alex/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64\"",
+					"$(inherited)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
+					"\"/Users/alex/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64_x86_64-simulator\"",
+					"$(inherited)",
+				);
+				GCC_PREFIX_HEADER = "Target Support Files/mesibo_flutter_sdk/mesibo_flutter_sdk-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/mesibo_flutter_sdk/mesibo_flutter_sdk-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/mesibo_flutter_sdk/mesibo_flutter_sdk.modulemap";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					Flutter,
+				);
+				PRODUCT_MODULE_NAME = mesibo_flutter_sdk;
+				PRODUCT_NAME = mesibo_flutter_sdk;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Profile;
+		};
+		2BDD45B26933620B0814C9C57084C1CB /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E736E0C9C5B73D27B8865E363E2108AC /* Pods-RunnerTests.profile.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Profile;
+		};
+		377EC0C80DD9A5B0F00AB0EA86F3F701 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2726E77BC9BE11E7B3BED279F959901A /* mesibo-calls.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FF131F7C9300211681557938EFD09B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F57807B5F09FCCF78CF6557B068EAE4 /* mesiboflutter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "$(inherited) armv7";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
+					"\"/Users/alex/flutter/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64\"",
+					"$(inherited)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
+					"\"/Users/alex/flutter/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64_x86_64-simulator\"",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					Flutter,
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
+			};
+			name = Debug;
+		};
+		4054343E774C2C1052476235599CB6A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC6430C86202E05836F8D17E01079B34 /* Pods-Runner.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "$(inherited) armv7";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
+					"\"/Users/alex/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64\"",
+					"$(inherited)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
+					"\"/Users/alex/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64_x86_64-simulator\"",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Target Support Files/Pods-Runner/Pods-Runner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Runner/Pods-Runner.modulemap";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					Flutter,
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		46A468D009B40A61768376E0B553864D /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2726E77BC9BE11E7B3BED279F959901A /* mesibo-calls.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Profile;
+		};
+		4C4FF9929FC93F2AC4E1574BC277D1F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58C43BAB56D98F64810637E4D542BD1A /* mesibo-ui.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54D459C89825034266104331A00B1727 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25CB773761D2FBA2820DCA6B75C4B190 /* Pods-Runner.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "$(inherited) armv7";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
+					"\"/Users/alex/flutter/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64\"",
+					"$(inherited)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
+					"\"/Users/alex/flutter/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64_x86_64-simulator\"",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Target Support Files/Pods-Runner/Pods-Runner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Runner/Pods-Runner.modulemap";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					Flutter,
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		56D0A9D56E3F54DDF11F50C44346C221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9C126AF12BE1452408F1764CF2EFA02 /* mesibo-webrtc.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5927FD635D648F8B5F52209CD8EA696E /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ECC0C66AE1F3B6ECA24827AB41AD074 /* mesibo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Profile;
+		};
+		7498B9019A34DD151A52BF83DBE937B6 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5D80ECEE59CB8A148B97DF41BBBBF5E /* mesibo-mediapicker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Profile;
+		};
+		88841235095E139C9B8D55B6571BF106 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ECC0C66AE1F3B6ECA24827AB41AD074 /* mesibo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C0B9E67B274A3534FA7F87C79316EBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66324A7A89E1042AB298774E5DB64E6C /* mesibo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C161961DA06FAE05534A2172725EE12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03E8AD2E8B75443E12D3D3BD12A9900E /* Pods-RunnerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.modulemap";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		903A0004D3E6651EFD5D2E16214D101B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9498D2532E60DBDF41603C51B60E35E8 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 538BDCFB3E99631E5E7DD65BDFDFEDBC /* Flutter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Profile;
+		};
+		9FECE03858BB134F105CFFB82B7BDF08 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58C43BAB56D98F64810637E4D542BD1A /* mesibo-ui.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Profile;
+		};
+		A045C7A6D99F4F60840B1F19D32848E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9292C9A2F067F9309B69AFF848BD2019 /* Flutter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A43B8D8AA64342BFD5DF561D6C651A26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C901511EE4B7F5BC84FD1B169776D69 /* mesibo_flutter_sdk.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "$(inherited) armv7";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
+					"\"/Users/alex/flutter/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64\"",
+					"$(inherited)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
+					"\"/Users/alex/flutter/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64_x86_64-simulator\"",
+					"$(inherited)",
+				);
+				GCC_PREFIX_HEADER = "Target Support Files/mesibo_flutter_sdk/mesibo_flutter_sdk-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/mesibo_flutter_sdk/mesibo_flutter_sdk-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/mesibo_flutter_sdk/mesibo_flutter_sdk.modulemap";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					Flutter,
+				);
+				PRODUCT_MODULE_NAME = mesibo_flutter_sdk;
+				PRODUCT_NAME = mesibo_flutter_sdk;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A74A3CB6E67CC06EE9E31D473D228853 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19CE7873B676924B7A84E48579099890 /* mesibo_flutter_sdk.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "$(inherited) armv7";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
+					"\"/Users/alex/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64\"",
+					"$(inherited)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
+					"\"/Users/alex/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64_x86_64-simulator\"",
+					"$(inherited)",
+				);
+				GCC_PREFIX_HEADER = "Target Support Files/mesibo_flutter_sdk/mesibo_flutter_sdk-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/mesibo_flutter_sdk/mesibo_flutter_sdk-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/mesibo_flutter_sdk/mesibo_flutter_sdk.modulemap";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					Flutter,
+				);
+				PRODUCT_MODULE_NAME = mesibo_flutter_sdk;
+				PRODUCT_NAME = mesibo_flutter_sdk;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B2109FAC9B458CC2D799196491A5C8D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC8FE152530FBDCE460186B326C1A8FB /* Pods-RunnerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BB1616D3BAEB27221D10A1D16EF78B7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D39FB77C7ED7F0162CB915C62B52072 /* mesibo-calls.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C35607DDA77D0DD2F1A24F1A614608A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AFA7DAEE8F0365782B3A794E5FF3C60 /* mesiboflutter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "$(inherited) armv7";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
+					"\"/Users/alex/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64\"",
+					"$(inherited)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
+					"\"/Users/alex/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64_x86_64-simulator\"",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					Flutter,
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
+			};
+			name = Release;
+		};
+		C4DE93ABA8040BAB7804B0B76ECE97CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD5B8AD1F8C80E4E8CC63758EB63EE66 /* mesibo-webrtc.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D932E2A04CA53BA13EA6743753ED97C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B24BE51DF9C8EA5C56D59F6D11165A5F /* mesibo-ui.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCF364D2CA5F270CAD355FD2FAFE3B13 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_PROFILE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Profile;
+		};
+		EB7BB3285B793805EE3CB0B998B2F0A0 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB4C25DC4EF09CF90083B55F2DCEDCA1 /* Pods-Runner.profile.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "$(inherited) armv7";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
+					"\"/Users/alex/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64\"",
+					"$(inherited)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
+					"\"/Users/alex/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64_x86_64-simulator\"",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Target Support Files/Pods-Runner/Pods-Runner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Runner/Pods-Runner.modulemap";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					Flutter,
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Profile;
+		};
+		EBA3538761FC5E379DDEF3D2DC260B11 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD5B8AD1F8C80E4E8CC63758EB63EE66 /* mesibo-webrtc.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Profile;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C4D9477DE7666B66DF81BBAE5E4A2E0 /* Build configuration list for PBXAggregateTarget "mesibo-mediapicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15F47935B1A786B98DD96980F8952084 /* Debug */,
+				7498B9019A34DD151A52BF83DBE937B6 /* Profile */,
+				0BD802E61EF62B94488C7298C856EF86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C9EEBE616655F51B83D3A3438057049 /* Build configuration list for PBXAggregateTarget "mesibo-webrtc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56D0A9D56E3F54DDF11F50C44346C221 /* Debug */,
+				EBA3538761FC5E379DDEF3D2DC260B11 /* Profile */,
+				C4DE93ABA8040BAB7804B0B76ECE97CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DF3E248A2A648613DA1CF609C3AAB5B /* Build configuration list for PBXAggregateTarget "mesibo-calls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB1616D3BAEB27221D10A1D16EF78B7E /* Debug */,
+				46A468D009B40A61768376E0B553864D /* Profile */,
+				377EC0C80DD9A5B0F00AB0EA86F3F701 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EB93B0D8485A9A57D8A64DEFA38BAA5 /* Build configuration list for PBXAggregateTarget "mesibo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C0B9E67B274A3534FA7F87C79316EBA /* Debug */,
+				5927FD635D648F8B5F52209CD8EA696E /* Profile */,
+				88841235095E139C9B8D55B6571BF106 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */,
+				DCF364D2CA5F270CAD355FD2FAFE3B13 /* Profile */,
+				903A0004D3E6651EFD5D2E16214D101B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94078A06C17E946ADC1F2C06726219E5 /* Build configuration list for PBXAggregateTarget "Flutter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A045C7A6D99F4F60840B1F19D32848E6 /* Debug */,
+				9498D2532E60DBDF41603C51B60E35E8 /* Profile */,
+				123B0D65A35211FC43B8BEE770443D25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98DF6E2D4AFE0BC2A667BDBE6AAA51F1 /* Build configuration list for PBXAggregateTarget "mesiboflutter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FF131F7C9300211681557938EFD09B7 /* Debug */,
+				2943E5A7A15BAC38E8BA43C167A650B0 /* Profile */,
+				C35607DDA77D0DD2F1A24F1A614608A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9F2641FA3570AC429515777CE90EC3D /* Build configuration list for PBXNativeTarget "Pods-Runner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54D459C89825034266104331A00B1727 /* Debug */,
+				EB7BB3285B793805EE3CB0B998B2F0A0 /* Profile */,
+				4054343E774C2C1052476235599CB6A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD0C3FB97FBDB751E51AAC7D002BCF54 /* Build configuration list for PBXNativeTarget "mesibo_flutter_sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A43B8D8AA64342BFD5DF561D6C651A26 /* Debug */,
+				2B14C78449FDEF785035FE0D4063F43C /* Profile */,
+				A74A3CB6E67CC06EE9E31D473D228853 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C93FE463016A8F6A183A1AD3D9FA6BAD /* Build configuration list for PBXNativeTarget "Pods-RunnerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C161961DA06FAE05534A2172725EE12 /* Debug */,
+				2BDD45B26933620B0814C9C57084C1CB /* Profile */,
+				B2109FAC9B458CC2D799196491A5C8D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAC76176568DABA8BD736170DDF416CB /* Build configuration list for PBXAggregateTarget "mesibo-ui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D932E2A04CA53BA13EA6743753ED97C3 /* Debug */,
+				9FECE03858BB134F105CFFB82B7BDF08 /* Profile */,
+				4C4FF9929FC93F2AC4E1574BC277D1F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

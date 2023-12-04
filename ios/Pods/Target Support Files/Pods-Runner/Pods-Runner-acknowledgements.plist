@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>FooterText</key>
+			<string>This application makes use of the following third party libraries:</string>
+			<key>Title</key>
+			<string>Acknowledgements</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
+			<string>/******************************************************************************
+* By accessing or copying this work, you agree to comply with the following   *
+* terms:                                                                      *
+*                                                                             *
+* Copyright (c) 2019-2023 mesibo                                              *
+* https://mesibo.com                                                          *
+* All rights reserved.                                                        *
+*                                                                             *
+* Redistribution is not permitted. Use of this software is subject to the     *
+* conditions specified at https://mesibo.com . When using the source code,    *
+* maintain the copyright notice, conditions, disclaimer, and  links to mesibo * 
+* website, documentation and the source code repository.                      *
+*                                                                             *
+* Do not use the name of mesibo or its contributors to endorse products from  *
+* this software without prior written permission.                             *
+*                                                                             *
+* This software is provided "as is" without warranties. mesibo and its        *
+* contributors are not liable for any damages arising from its use.           *
+*                                                                             *
+* Documentation: https://mesibo.com/documentation/                            *
+*                                                                             *
+* Source Code Repository: https://github.com/mesibo/                          *
+*******************************************************************************/
+</string>
+			<key>License</key>
+			<string>Copyright</string>
+			<key>Title</key>
+			<string>mesibo</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
+			<string>/******************************************************************************
+* By accessing or copying this work, you agree to comply with the following   *
+* terms:                                                                      *
+*                                                                             *
+* Copyright (c) 2019-2023 mesibo                                              *
+* https://mesibo.com                                                          *
+* All rights reserved.                                                        *
+*                                                                             *
+* Redistribution is not permitted. Use of this software is subject to the     *
+* conditions specified at https://mesibo.com . When using the source code,    *
+* maintain the copyright notice, conditions, disclaimer, and  links to mesibo * 
+* website, documentation and the source code repository.                      *
+*                                                                             *
+* Do not use the name of mesibo or its contributors to endorse products from  *
+* this software without prior written permission.                             *
+*                                                                             *
+* This software is provided "as is" without warranties. mesibo and its        *
+* contributors are not liable for any damages arising from its use.           *
+*                                                                             *
+* Documentation: https://mesibo.com/documentation/                            *
+*                                                                             *
+* Source Code Repository: https://github.com/mesibo/                          *
+*******************************************************************************/
+</string>
+			<key>License</key>
+			<string>Copyright</string>
+			<key>Title</key>
+			<string>mesibo-calls</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
+			<string>Copyright (c) 2023, Mesibo, Inc (https://mesibo.com)
+All rights reserved.
+
+Redistributions and use in any form must reproduce the above copyright!
+</string>
+			<key>License</key>
+			<string>Copyright</string>
+			<key>Title</key>
+			<string>mesibo-mediapicker</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
+			<string>/******************************************************************************
+* By accessing or copying this work, you agree to comply with the following   *
+* terms:                                                                      *
+*                                                                             *
+* Copyright (c) 2019-2023 mesibo                                              *
+* https://mesibo.com                                                          *
+* All rights reserved.                                                        *
+*                                                                             *
+* Redistribution is not permitted. Use of this software is subject to the     *
+* conditions specified at https://mesibo.com . When using the source code,    *
+* maintain the copyright notice, conditions, disclaimer, and  links to mesibo * 
+* website, documentation and the source code repository.                      *
+*                                                                             *
+* Do not use the name of mesibo or its contributors to endorse products from  *
+* this software without prior written permission.                             *
+*                                                                             *
+* This software is provided "as is" without warranties. mesibo and its        *
+* contributors are not liable for any damages arising from its use.           *
+*                                                                             *
+* Documentation: https://mesibo.com/documentation/                            *
+*                                                                             *
+* Source Code Repository: https://github.com/mesibo/                          *
+*******************************************************************************/
+</string>
+			<key>License</key>
+			<string>Copyright</string>
+			<key>Title</key>
+			<string>mesibo-ui</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
+			<string>Copyright (c) 2021, Mesibo (https://mesibo.com)
+All rights reserved.
+
+Redistributions and use in any form must reproduce the above copyright!
+</string>
+			<key>License</key>
+			<string>Copyright</string>
+			<key>Title</key>
+			<string>mesibo-webrtc</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
+			<string>/******************************************************************************
+* By accessing or copying this work, you agree to comply with the following   *
+* terms:                                                                      *
+*                                                                             *
+* Copyright (c) 2019-2023 mesibo                                              *
+* https://mesibo.com                                                          *
+* All rights reserved.                                                        *
+*                                                                             *
+* Redistribution is not permitted. Use of this software is subject to the     *
+* conditions specified at https://mesibo.com . When using the source code,    *
+* maintain the copyright notice, conditions, disclaimer, and  links to mesibo * 
+* website, documentation and the source code repository.                      *
+*                                                                             *
+* Do not use the name of mesibo or its contributors to endorse products from  *
+* this software without prior written permission.                             *
+*                                                                             *
+* This software is provided "as is" without warranties. mesibo and its        *
+* contributors are not liable for any damages arising from its use.           *
+*                                                                             *
+* Documentation: https://mesibo.com/documentation/                            *
+*                                                                             *
+* Source Code Repository: https://github.com/mesibo/                          *
+*******************************************************************************/
+</string>
+			<key>Title</key>
+			<string>mesibo_flutter_sdk</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
+			<string>Copyright (c) 2019-2023, Mesibo, Inc (https://mesibo.com)
+All rights reserved.
+
+Redistributions and use in any form must reproduce the above copyright!
+</string>
+			<key>License</key>
+			<string>Copyright</string>
+			<key>Title</key>
+			<string>mesiboflutter</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
+			<string>Generated by CocoaPods - https://cocoapods.org</string>
+			<key>Title</key>
+			<string></string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+	</array>
+	<key>StringsTable</key>
+	<string>Acknowledgements</string>
+	<key>Title</key>
+	<string>Acknowledgements</string>
+</dict>
+</plist>

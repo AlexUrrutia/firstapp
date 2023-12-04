@@ -1,0 +1,53 @@
+PODS:
+  - Flutter (1.0.0)
+  - mesibo (2.3.2)
+  - mesibo-calls (2.3.2):
+    - mesibo (= 2.3.2)
+    - mesibo-webrtc (= 1.4.0)
+  - mesibo-mediapicker (2.1.6)
+  - mesibo-ui (2.3.2):
+    - mesibo (= 2.3.2)
+    - mesibo-mediapicker
+  - mesibo-webrtc (1.4.0):
+    - mesibo
+  - mesibo_flutter_sdk (2.1.1):
+    - Flutter
+    - mesiboflutter
+  - mesiboflutter (2.1.1):
+    - Flutter
+    - mesibo (= 2.3.2)
+    - mesibo-calls (= 2.3.2)
+    - mesibo-ui (= 2.3.2)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - mesibo_flutter_sdk (from `.symlinks/plugins/mesibo_flutter_sdk/ios`)
+
+SPEC REPOS:
+  trunk:
+    - mesibo
+    - mesibo-calls
+    - mesibo-mediapicker
+    - mesibo-ui
+    - mesibo-webrtc
+    - mesiboflutter
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  mesibo_flutter_sdk:
+    :path: ".symlinks/plugins/mesibo_flutter_sdk/ios"
+
+SPEC CHECKSUMS:
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  mesibo: 8e7049d60a40e3de975238a0fc591c555322662f
+  mesibo-calls: c13aa776a6b956ab196c432801e6f75c45ed175a
+  mesibo-mediapicker: 42ef0007e88fbe544021ef46da195a1aeb742be1
+  mesibo-ui: e3818220fe6d819b4705d37fda37ea98a4fbf916
+  mesibo-webrtc: bff3012986dd1fb02680a620b56eb3920c9d5bde
+  mesibo_flutter_sdk: efb65aa892debf637ddd879a185491aa453642dd
+  mesiboflutter: a5f1557cc9a76502b7dd2a403cc77b4dcfa30445
+
+PODFILE CHECKSUM: 70d9d25280d0dd177a5f637cdb0f0b0b12c6a189
+
+COCOAPODS: 1.14.2
